@@ -47,6 +47,7 @@ spec:
       type: string
       default: -v
       steps:
+  steps:
     - name: nosetests
       image: python:3.9-slim
       workingDir: $(workspaces.source.path)
